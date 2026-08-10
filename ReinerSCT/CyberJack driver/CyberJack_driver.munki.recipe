@@ -9,7 +9,7 @@ This recipe defaults supported_architectures to both "x86_64" and "arm64" for
 the download of the ReinserSCT CyberJack driver. If you override the default ARCHITECTURE value,
 also remember to adjust the supported_architectures in your override.</string>
     <key>Identifier</key>
-    <string>com.github.aguehl.munki.CyberJack-driver</string>
+    <string>com.github.guehl.munki.CyberJack-driver</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>

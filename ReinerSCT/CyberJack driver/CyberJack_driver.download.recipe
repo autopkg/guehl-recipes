@@ -10,7 +10,7 @@ Allowable ARCHITECTURE values:
 - "x86_64" for the Intel build
 </string>
     <key>Identifier</key>
-    <string>com.github.aguehl.download.CyberJack-driver</string>
+    <string>com.github.guehl.download.CyberJack-driver</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
