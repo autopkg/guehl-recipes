@@ -37,22 +37,9 @@
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.almenscorner.download.CopyQ</string>
+	<string>com.github.guehl.download.CopyQ</string>
 	<key>Process</key>
 	<array>
-		<dict>
-			<key>Processor</key>
-			<string>Unarchiver</string>
-			<key>Arguments</key>
-			<dict>
-				<key>archive_path</key>
-				<string>%pathname%</string>
-				<key>destination_path</key>
-				<string>%RECIPE_CACHE_DIR%/unpacked</string>
-				<key>purge_destination</key>
-				<true/>
-			</dict>
-		</dict>
 		<dict>
 			<key>Processor</key>
 			<string>MunkiPkginfoMerger</string>
@@ -71,7 +58,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>pkg_path</key>
-				<string>%RECIPE_CACHE_DIR%/unpacked/CopyQ-macos-%version%-m1.dmg</string>
+				<string>%pathname%</string>
 				<key>repo_subdirectory</key>
 				<string>%MUNKI_REPO_SUBDIR%</string>
 			</dict>
