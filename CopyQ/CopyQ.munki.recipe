@@ -35,7 +35,7 @@
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.almenscorner.download.CopyQ</string>
+	<string>com.github.guehl.download.CopyQ</string>
 	<key>Process</key>
 	<array>
 		<dict>
